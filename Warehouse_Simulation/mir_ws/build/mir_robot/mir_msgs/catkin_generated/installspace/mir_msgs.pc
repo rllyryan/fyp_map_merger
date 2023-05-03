@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: mir_msgs
+Description: Description of mir_msgs
+Version: 1.1.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime

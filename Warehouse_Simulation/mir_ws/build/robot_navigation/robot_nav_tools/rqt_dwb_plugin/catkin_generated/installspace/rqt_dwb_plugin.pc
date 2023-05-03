@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: rqt_dwb_plugin
+Description: Description of rqt_dwb_plugin
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

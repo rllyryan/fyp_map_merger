@@ -1,0 +1,2 @@
+set(nav_2d_msgs_MESSAGE_FILES "msg/ComplexPolygon2D.msg;msg/NavGridInfo.msg;msg/NavGridOfChars.msg;msg/NavGridOfCharsUpdate.msg;msg/NavGridOfDoubles.msg;msg/NavGridOfDoublesUpdate.msg;msg/Path2D.msg;msg/Point2D.msg;msg/Polygon2D.msg;msg/Polygon2DCollection.msg;msg/Polygon2DStamped.msg;msg/Pose2D32.msg;msg/Pose2DStamped.msg;msg/Twist2D.msg;msg/Twist2D32.msg;msg/Twist2DStamped.msg;msg/UIntBounds.msg")
+set(nav_2d_msgs_SERVICE_FILES "srv/SwitchPlugin.srv")

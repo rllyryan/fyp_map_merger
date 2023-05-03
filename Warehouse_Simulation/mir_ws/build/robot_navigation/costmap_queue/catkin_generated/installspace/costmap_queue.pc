@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: costmap_queue
+Description: Description of costmap_queue
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcostmap_queue
+Requires: nav_core2 roscpp

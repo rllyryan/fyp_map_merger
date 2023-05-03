@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: color_util
+Description: Description of color_util
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcolor_util
+Requires: std_msgs

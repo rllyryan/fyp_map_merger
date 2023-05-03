@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: nav_grid_iterators
+Description: Description of nav_grid_iterators
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/nav_grid_iterators/include
+Libs: -L${prefix}/lib -lnav_grid_iterators
+Requires: nav_grid nav_2d_msgs nav_2d_utils nav_msgs roscpp

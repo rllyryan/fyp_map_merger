@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: dwb_plugins
+Description: Description of dwb_plugins
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/devel/include -I/home/rllyryan/mir_ws/src/robot_navigation/dwb_plugins/include
+Libs: -L${prefix}/lib -lsimple_goal_checker -lstopped_goal_checker -lstandard_traj_generator
+Requires: angles dwb_local_planner dynamic_reconfigure nav_2d_msgs nav_2d_utils nav_core2 pluginlib roscpp

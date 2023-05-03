@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_2d_utils/include/nav_2d_utils/bounds.h
+nav_grid/nav_grid_info.h
+-
+nav_core2/bounds.h
+-
+vector
+-
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_2d_utils/src/bounds.cpp
+nav_2d_utils/bounds.h
+-
+nav_grid/coordinate_conversion.h
+-
+algorithm
+-
+stdexcept
+-
+vector
+-
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_core2/include/nav_core2/bounds.h
+algorithm
+-
+limits
+-
+string
+-
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_grid/include/nav_grid/coordinate_conversion.h
+nav_grid/nav_grid_info.h
+-
+math.h
+-
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_grid/include/nav_grid/nav_grid_info.h
+string
+-
+

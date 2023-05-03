@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: nav_grid_pub_sub
+Description: Description of nav_grid_pub_sub
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/nav_grid_pub_sub/include
+Libs: -L${prefix}/lib -lnav_grid_pub_sub
+Requires: geometry_msgs map_msgs nav_2d_msgs nav_2d_utils nav_core2 nav_grid nav_grid_iterators nav_msgs roscpp

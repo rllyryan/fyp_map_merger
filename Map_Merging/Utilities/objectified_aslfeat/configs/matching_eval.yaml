@@ -1,0 +1,19 @@
+# model_path: '/home/rllyryan/Documents/GitHub/FYP_AY21-22_Ryan/Map_Merging/Utilities/objectified_aslfeat/pretrained/aslfeatv2/model.ckpt-60000'
+model_path: '/home/rllyryan/Documents/GitHub/FYP_AY21-22_Ryan/Map_Merging/Utilities/objectified_aslfeat/pretrained/aslfeat/model.ckpt-380000'
+net:
+  max_dim: 2048
+  config:
+    kpt_n: 8000
+    kpt_refinement: true
+    deform_desc: 1
+    score_thld: 0.5
+    edge_thld: 10
+    multi_scale: true
+    multi_level: true
+    nms_size: 3
+    eof_mask: 5
+    need_norm: true
+    use_peakiness: true
+match:
+  ratio_test: 0.8
+  cross_check: true

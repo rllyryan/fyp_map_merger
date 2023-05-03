@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: dwb_msgs
+Description: Description of dwb_msgs
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime nav_2d_msgs nav_msgs

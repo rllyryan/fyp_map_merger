@@ -1,0 +1,198 @@
+class DMatch(builtins.object)
+     |  Methods defined here:
+     |  
+     |  __init__(self, /, *args, **kwargs)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  __repr__(self, /)
+     |      Return repr(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  distance
+     |      distance
+     |  
+     |  imgIdx
+     |      imgIdx
+     |  
+     |  queryIdx
+     |      queryIdx
+     |  
+     |  trainIdx
+     |      trainIdx
+
+class detail_MatchesInfo(builtins.object)
+     |  Methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  __repr__(self, /)
+     |      Return repr(self).
+     |  
+     |  getInliers(...)
+     |      getInliers() -> retval
+     |      .
+     |  
+     |  getMatches(...)
+     |      getMatches() -> retval
+     |      .
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  H
+     |      H
+     |  
+     |  confidence
+     |      confidence
+     |  
+     |  dst_img_idx
+     |      dst_img_idx
+     |  
+     |  num_inliers
+     |      num_inliers
+     |  
+     |  src_img_idx
+     |      src_img_idx
+
+class detail_BestOf2NearestMatcher(detail_FeaturesMatcher)
+     |  Method resolution order:
+     |      detail_BestOf2NearestMatcher
+     |      detail_FeaturesMatcher
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, /, *args, **kwargs)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  __repr__(self, /)
+     |      Return repr(self).
+     |  
+     |  collectGarbage(...)
+     |      collectGarbage() -> None
+     |      .
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  create(...)
+     |      create([, try_use_gpu[, match_conf[, num_matches_thresh1[, num_matches_thresh2]]]]) -> retval
+     |      .
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from detail_FeaturesMatcher:
+     |  
+     |  apply(...)
+     |      apply(features1, features2) -> matches_info
+     |      .   @overload
+     |      .   @param features1 First image features
+     |      .   @param features2 Second image features
+     |      .   @param matches_info Found matches
+     |  
+     |  apply2(...)
+     |      apply2(features[, mask]) -> pairwise_matches
+     |      .   @brief Performs images matching.
+     |      .   
+     |      .   @param features Features of the source images
+     |      .   @param pairwise_matches Found pairwise matches
+     |      .   @param mask Mask indicating which image pairs must be matched
+     |      .   
+     |      .   The function is parallelized with the TBB library.
+     |      .   
+     |      .   @sa detail::MatchesInfo
+     |  
+     |  isThreadSafe(...)
+     |      isThreadSafe() -> retval
+     |      .   @return True, if it's possible to use the same matcher instance in parallel, false otherwise
+    
+class detail_BestOf2NearestRangeMatcher(detail_BestOf2NearestMatcher)
+     |  Method resolution order:
+     |      detail_BestOf2NearestRangeMatcher
+     |      detail_BestOf2NearestMatcher
+     |      detail_FeaturesMatcher
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, /, *args, **kwargs)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  __repr__(self, /)
+     |      Return repr(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from detail_BestOf2NearestMatcher:
+     |  
+     |  collectGarbage(...)
+     |      collectGarbage() -> None
+     |      .
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from detail_BestOf2NearestMatcher:
+     |  
+     |  create(...)
+     |      create([, try_use_gpu[, match_conf[, num_matches_thresh1[, num_matches_thresh2]]]]) -> retval
+     |      .
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from detail_FeaturesMatcher:
+     |  
+     |  apply(...)
+     |      apply(features1, features2) -> matches_info
+     |      .   @overload
+     |      .   @param features1 First image features
+     |      .   @param features2 Second image features
+     |      .   @param matches_info Found matches
+     |  
+     |  apply2(...)
+     |      apply2(features[, mask]) -> pairwise_matches
+     |      .   @brief Performs images matching.
+     |      .   
+     |      .   @param features Features of the source images
+     |      .   @param pairwise_matches Found pairwise matches
+     |      .   @param mask Mask indicating which image pairs must be matched
+     |      .   
+     |      .   The function is parallelized with the TBB library.
+     |      .   
+     |      .   @sa detail::MatchesInfo
+     |  
+     |  isThreadSafe(...)
+     |      isThreadSafe() -> retval
+     |      .   @return True, if it's possible to use the same matcher instance in parallel, false otherwise
+
+class detail_ImageFeatures(builtins.object)
+     |  Methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  __repr__(self, /)
+     |      Return repr(self).
+     |  
+     |  getKeypoints(...)
+     |      getKeypoints() -> retval
+     |      .
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  descriptors
+     |      descriptors
+     |  
+     |  img_idx
+     |      img_idx
+     |  
+     |  img_size
+     |      img_size

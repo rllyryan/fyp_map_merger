@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: dlux_global_planner
+Description: Description of dlux_global_planner
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/dlux_global_planner/include
+Libs: -L${prefix}/lib -ldgp
+Requires: geometry_msgs nav_2d_msgs nav_2d_utils nav_core2 nav_grid nav_grid_pub_sub nav_msgs pluginlib roscpp visualization_msgs

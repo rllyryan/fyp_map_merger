@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: nav_core2
+Description: Description of nav_core2
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/nav_core2/include
+Libs: -L${prefix}/lib -lbasic_costmap
+Requires: nav_2d_msgs nav_grid tf2_ros

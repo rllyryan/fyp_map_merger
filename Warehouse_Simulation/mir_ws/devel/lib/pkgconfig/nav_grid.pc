@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: nav_grid
+Description: Description of nav_grid
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/nav_grid/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,20 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dwb_plugins" pkg="dwb_plugins" type="dwb_plugins">
+  <param name="min_vel_x" type="double" value="0.0" />
+  <param name="max_vel_x" type="double" value="0.55" />
+  <param name="min_vel_y" type="double" value="-0.1" />
+  <param name="max_vel_y" type="double" value="0.1" />
+  <param name="max_vel_theta" type="double" value="1.0" />
+  <param name="acc_lim_x" type="double" value="2.5" />
+  <param name="acc_lim_y" type="double" value="2.5" />
+  <param name="acc_lim_theta" type="double" value="3.2" />
+  <param name="decel_lim_x" type="double" value="-2.5" />
+  <param name="decel_lim_y" type="double" value="-2.5" />
+  <param name="decel_lim_theta" type="double" value="-3.2" />
+  <param name="min_speed_xy" type="double" value="0.1" />
+  <param name="max_speed_xy" type="double" value="0.55" />
+  <param name="min_speed_theta" type="double" value="0.4" />
+</node>
+\endverbatim
+

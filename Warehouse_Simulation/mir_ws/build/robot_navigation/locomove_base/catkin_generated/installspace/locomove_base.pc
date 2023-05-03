@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: locomove_base
+Description: Description of locomove_base
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: locomotor move_base_msgs nav_2d_utils nav_core nav_core_adapter

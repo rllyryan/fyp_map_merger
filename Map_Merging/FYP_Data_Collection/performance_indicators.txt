@@ -1,0 +1,19 @@
+[Performance Evaluation of Feature Detectors and Descriptors Beyond the Visible]
+https://www.researchgate.net/publication/323007326_Performance_Evaluation_of_Feature_Detectors_and_Descriptors_Beyond_the_Visible/link/5fbe3f75299bf104cf758d6c/download
+
+1. Repeatability - Ratio of number of correspondences to minimum number of features detected in both images.
+2. Matching Score - Ratio between the number of correct matches and the number of detected regions in the first image
+3. Recall - Ratio of the correct matches M+ to the number of correspondences between a pair of images.
+4. Precision - Ratio of correct matches M+ to the number of total matches M∗ (false matches and correct matches).
+
+Note: 
+
+1. In order to label matches as correct (M+), we need to verify whether the matched features are also the correspondences provided by the ground truth homography.
+2. Feature Detectors we test the repeatability of the feature extractors as well as the number of geometric correspondences. In addition, we compute the matching scores and the
+   number of matches using LIOP for the considered detectors. LIOP was chosen as it has been demonstrated in the literature to perform reasonably well in different scenarios. In
+   addition, it is independent from all the detectors considered in this study so that to avoid bias towards a specific detector. The aim here is to study the distinctiveness of the extracted
+   features regardless of the native descriptor.
+
+Bottom Line:
+1. No ground truth, cannot compare (unless synthesize, trying to avoid this)
+2. Eye power the map

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_grid_pub_sub/include/nav_grid_pub_sub/cost_interpretation_tables.h
+vector
+-
+
+/home/rllyryan/mir_ws/src/robot_navigation/nav_grid_pub_sub/src/cost_interpretation_tables.cpp
+nav_grid_pub_sub/cost_interpretation_tables.h
+-
+vector
+-
+

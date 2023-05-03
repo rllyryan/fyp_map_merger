@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: nav_2d_utils
+Description: Description of nav_2d_utils
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/nav_2d_utils/include
+Libs: -L${prefix}/lib -lbounds -lconversions -lpath_ops -lpolygons
+Requires: geometry_msgs nav_2d_msgs nav_core2 nav_grid nav_msgs pluginlib roscpp std_msgs tf tf2_ros tf2_geometry_msgs xmlrpcpp

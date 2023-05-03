@@ -1,0 +1,7 @@
+pickle5==0.0.12
+deepdiff==5.6.0
+urllib3==1.26.7
+# regex==2021.11.10
+opencv-contrib-python==4.5.4.60
+# requests==2.26.0
+# opcua==0.98.13

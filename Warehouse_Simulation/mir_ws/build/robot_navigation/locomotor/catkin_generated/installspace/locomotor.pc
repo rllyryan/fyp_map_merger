@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: locomotor
+Description: Description of locomotor
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llocomotor
+Requires: actionlib geometry_msgs locomotor_msgs nav_2d_msgs nav_2d_utils nav_core2 nav_msgs pluginlib roscpp rospy

@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: nav_core_adapter
+Description: Description of nav_core_adapter
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/nav_core_adapter/include
+Libs: -L${prefix}/lib -llocal_planner_adapter -lglobal_planner_adapter -lcostmap_adapter -lglobal_planner_adapter2
+Requires: costmap_2d geometry_msgs nav_2d_msgs nav_2d_utils nav_core nav_core2 nav_grid nav_msgs pluginlib tf visualization_msgs

@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/devel
+
+Name: robot_nav_viz_demos
+Description: Description of robot_nav_viz_demos
+Version: 0.3.0
+Cflags: -I/home/rllyryan/mir_ws/src/robot_navigation/robot_nav_tools/robot_nav_viz_demos/include
+Libs: -L${prefix}/lib -ldemo_palettes -lspectrum_display
+Requires: angles color_util geometry_msgs nav_2d_msgs nav_2d_utils nav_grid nav_grid_iterators nav_grid_pub_sub pluginlib robot_nav_rviz_plugins roscpp rviz

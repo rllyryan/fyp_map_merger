@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: mir_description
+Description: Description of mir_description
+Version: 1.1.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

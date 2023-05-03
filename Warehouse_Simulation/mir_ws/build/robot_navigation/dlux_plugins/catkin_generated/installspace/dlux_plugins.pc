@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: dlux_plugins
+Description: Description of dlux_plugins
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldlux_plugins
+Requires: dlux_global_planner nav_core2 nav_grid pluginlib

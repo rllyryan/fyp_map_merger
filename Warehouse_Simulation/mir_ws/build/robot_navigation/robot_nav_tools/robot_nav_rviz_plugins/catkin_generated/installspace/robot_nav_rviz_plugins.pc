@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: robot_nav_rviz_plugins
+Description: Description of robot_nav_rviz_plugins
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobot_nav_rviz_plugins -lbasic_palettes -lrnrp_utils
+Requires: color_util geometry_msgs nav_2d_msgs nav_2d_utils nav_core2 nav_grid nav_grid_iterators nav_grid_pub_sub nav_msgs pluginlib roscpp rviz std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/rllyryan/mir_ws/install
+
+Name: global_planner_tests
+Description: Description of global_planner_tests
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lglobal_planner_tests
+Requires: map_server nav_core2 roscpp nav_msgs pluginlib

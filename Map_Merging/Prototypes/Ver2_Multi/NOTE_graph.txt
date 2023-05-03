@@ -1,0 +1,3 @@
+Nm - Number of matches
+Ni - Numer of inliers
+c - confidence
