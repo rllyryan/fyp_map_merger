@@ -1,27 +1,18 @@
 # Content
-This repository contains two independent items of:
-1) The Movel AI SEIRIOS RNS Communication Bridge;
-2) and the Map Merging Tool
+This repository contains:
+1) Map Merging Tool
 
-These were created as a part of the deliverables for the Final Year Project (FYP) under the National University of Singapore (NUS) in AY2021/2022. The project was titled "Agnostic Robot Fleet Manager Optimiser: Fleet Management Connectivity and Map Merging".
+This was created as a part of the deliverables for the Final Year Project (FYP) under the National University of Singapore (NUS) in AY2021/2022. The project was titled "Agnostic Robot Fleet Manager Optimiser: Fleet Management Connectivity and Map Merging".
 ## Prerequisites
 Run a recursive installment of the `requirements.txt` file.
 ```bash
 # At the root of the repository
 pip3 install -r requirements.txt
 ```
-## Communication Bridge
-The only product found here is:
-1) Movel AI Seirios RNS Communication Bridge
 
-The file for this code can be found as shown below.
-```bash
-cd fyp_fleet_management/Fleet_Management_Bridge/Movel_AI/Seririos_RNS_plugin
-python3 seirios_rns_plugin.py
-```
 ## Map Merging Tool
 There exists two final products:
-1) Multi-Map Stitcher Class
+1) Multi-Map Stitcher Class 
 2) Pair-Map Stitcher Class
 
 ### Multi-Map Stitcher Class
