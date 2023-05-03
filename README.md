@@ -58,7 +58,7 @@ Here are the selection numbers for each algorithm incorporated into the code blo
 ```
 
 ### Pair-Map Stitcher Class
-This class was created to stitch **a pair** of overlapping partial maps together. The limitation is that images need to be provided in its true order
+This class was created to stitch **a pair** of overlapping partial maps together. The limitation is that images need to be provided in its true order. For example, the left image supplied must be the true left portion of the full merged image.
 
 The test file for this class can be found as shown below.
 ```bash
