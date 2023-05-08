@@ -18,7 +18,7 @@ There exists two final products:
 ### Multi-Map Stitcher Class
 This class was created to stitch **multiple** overlapping partial maps together regardless of the quantity and order of input.
 
-<img src="https://raw.githubusercontent.com/syncware-ai/fyp_fleet_management/main/Github_Display/multi_map_merging.png" width="800">
+![multi_map_merging](https://raw.githubusercontent.com/syncware-ai/fyp_fleet_management/main/Github_Display/multi_map_merging.png)
 
 The test file for this class can be found as shown below.
 ```bash
