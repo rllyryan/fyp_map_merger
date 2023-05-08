@@ -18,7 +18,7 @@ There exists two final products:
 ### Multi-Map Stitcher Class
 This class was created to stitch **multiple** overlapping partial maps together regardless of the quantity and order of input.
 
-<img src="https://github.com/rllyryan/fyp_map_merger/blob/main/Github_Display/multi_map_merging.png" width="800">
+<img src="https://raw.githubusercontent.com/rllyryan/fyp_map_merger/master/Github_Display/multi_map_merging.png" alt="multi_map_merging" width=800>
 
 The test file for this class can be found as shown below.
 ```bash
@@ -102,7 +102,7 @@ Here are the selection numbers for each algorithm incorporated into the code blo
 ## Warehouse Simulation
 A warehouse world was created from the cloning of the small warehouse world by AWS Robomaker [https://github.com/aws-robotics/aws-robomaker-small-warehouse-world].
 
-<img src="https://github.com/rllyryan/fyp_map_merger/blob/main/Github_Display/aws_warehouse.png" width="800">
+<img src="https://raw.githubusercontent.com/rllyryan/fyp_map_merger/master/Github_Display/aws_warehouse.png" alt="multi_map_merging" width=800>
 
 The `mir_ws` can be cloned into your local machine, and can be found here:
 ```bash
